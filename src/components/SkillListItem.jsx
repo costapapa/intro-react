@@ -1,7 +1,7 @@
-import './SkillListItem.css'
+import './css/SkillListItem.css'
 
 function SkillListItem({ skill, index }){
-    console.log(skill)
+    
     return (
         <li className={"SkillListItem"}>
             <p> {skill.name}</p> <p className="level">Level {skill.level}</p>
